@@ -1,38 +1,39 @@
 <h1 align="center">
-  💻<br>Portfólio // Iuri Silva
+  💻<br>Portfolio // Mohammad Tabish Farhan
 </h1>
 
-![Resultado final do projeto](assets/image/preview.png)
+![Final project preview](assets/image/preview.png)
 
-<h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://www.yourportfolio.com/">Click here to visit the project</a></h4>
 
-## 📚 Seções
+## 📚 Sections
 
-O site é composto por seis seções:
+The website is composed of six sections:
 
-- **Home:** Nele temos uma breve apresentação;
-- **Quem sou:** Nessa seção tenho uma descrição dizendo um pouco sobre quem sou;
-- **Experiências:** Abordo algumas empresas da qual prestei meus serviços na área de desenvolvimento e design;
-- **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
-- **Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
-- **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
-
----
-
-## 💼 Tecnologias utilizadas
-
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
-
-- HTML;
-- Sass;
-- JavaScript;
+- **Home:** A brief introduction;
+- **About Me:** A description telling a bit about who I am;
+- **Achievements:** Highlights some notable accomplishments and milestones in my journey;
+- **Projects:** Showcases some developed projects with direct links to their respective GitHub repositories;
+- **Technical Skills:** Lists and describes the technologies, tools, and frameworks I have expertise in;
+- **Skills:** Presents my knowledge in several technologies, with a focus on front-end development;
 
 ---
 
-## Disponível para freelas - #OpenToWork 🚀
+## 💼 Technologies Used
 
-Atualmente estou aberto para oportunidades como Desenvolvedor Frontend e UI/UX Designer. Se você precisa de alguém para transformar ideias em interfaces bonitas, responsivas e funcionais, podemos trabalhar juntos!
+For the development of this website, I used the following technologies:
 
-📬 Entre em contato:
-📧 iuricold99@gmail.com
-💼 [Linkedin](https://www.linkedin.com/in/iuricode/)
+- HTML  
+- Sass  
+- JavaScript  
+
+---
+
+## Available for Freelance Work - #OpenToWork 🚀
+
+I am currently open to opportunities as a Frontend Developer and UI/UX Designer.  
+If you need someone to turn ideas into beautiful, responsive, and functional interfaces, we can work together!
+
+📬 Contact:  
+📧 tabishfarhan853@gmail.com  
+💼 [LinkedIn](https://www.linkedin.com/in/md-tabish-farhan/)
