@@ -4,7 +4,7 @@
 
 ![Final project preview](assets/image/preview.png)
 
-<h4 align="center"><a href="https://www.yourportfolio.com/">Click here to visit the project</a></h4>
+<h4 align="center"><a href="https://tabs-code.vercel.app/">Click here to visit the project</a></h4>
 
 ## 📚 Sections
 
