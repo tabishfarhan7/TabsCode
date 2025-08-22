@@ -7,9 +7,50 @@ import { menu } from "./menu.js";
 menu();
 
 
+
+
 initScrollReveal();
 typeWrite(document.querySelector(".typewriter"));
 
+
+
+// Scroll Reveal for Left Slide
+const revealLeftElements = document.querySelectorAll(".reveal-left-unique");
+
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+        observer.unobserve(entry.target); // reveal only once
+      }
+    });
+  },
+  { threshold: 0.2 } // trigger when 20% visible
+);
+
+revealLeftElements.forEach(el => observer.observe(el));
+
+
+const formUnique = document.getElementById("contact-form-unique");
+const popupUnique = document.getElementById("contact-popup-unique");
+const closeBtnUnique = document.getElementById("popup-close-unique");
+
+formUnique.addEventListener("submit", function(e) {
+  e.preventDefault(); // Prevent form from refreshing
+  popupUnique.classList.add("show");
+  formUnique.reset(); // Clear form
+});
+
+closeBtnUnique.addEventListener("click", function() {
+  popupUnique.classList.remove("show");
+});
+
+window.addEventListener("click", function(e) {
+  if (e.target === popupUnique) {
+    popupUnique.classList.remove("show");
+  }
+});
 
 
 

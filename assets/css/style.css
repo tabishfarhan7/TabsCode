@@ -7,3 +7,198 @@
     width: 70px;
   }
 }
+
+
+.contact-section-unique {
+  padding: 100px 20px;
+  background:#040615;
+  text-align: center;
+}
+
+.contact-container-unique {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-title-unique {
+  font-size: 4rem;
+  font-weight: 500;
+  color:#fff;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle-unique {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.contact-form-unique {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form-group-unique input,
+.contact-form-group-unique textarea {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  background: #fff;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form-group-unique input:focus,
+.contact-form-group-unique textarea:focus {
+  border-color: #986dff;
+  box-shadow: 0 0 8px rgba(74, 43, 147, 0.3);
+}
+
+.contact-btn-submit-unique {
+  background: #986dff;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-btn-submit-unique:hover {
+  background: #390dbe;
+  transform: translateY(-2px);
+}
+
+/* ✅ Responsive Styles */
+@media screen and (max-width: 768px) {
+  .contact-title-unique {
+    font-size: 2.6rem;
+  }
+
+  .contact-subtitle-unique {
+    font-size: 1.4rem;
+  }
+
+  .contact-form-unique {
+    gap: 16px;
+  }
+
+  .contact-btn-submit-unique {
+    width: 100%;
+    padding: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-section-unique {
+    padding: 60px 15px;
+  }
+
+  .contact-title-unique {
+    font-size: 2.2rem;
+  }
+
+  .contact-subtitle-unique {
+    font-size: 1.2rem;
+  }
+}
+
+
+/* Initial hidden state */
+.reveal-left-unique {
+  opacity: 0;
+  transform: translateX(-120px);
+  transition: all 1.5s ease-out;
+}
+
+/* When visible */
+.reveal-left-unique.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* --- Pop-up Modal Styles --- */
+.contact-popup-unique {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 6, 21, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  z-index: 9999;
+}
+
+.contact-popup-unique.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact-popup-content-unique {
+  background:#040615;
+  padding: 40px 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 24px rgb(44, 42, 196);
+  transform: scale(0.8);
+  transition: transform 0.4s ease;
+}
+
+.contact-popup-unique.show .contact-popup-content-unique {
+  transform: scale(1);
+}
+
+.contact-popup-content-unique h3 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-popup-content-unique p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.popup-close-btn-unique {
+  background: #986dff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.popup-close-btn-unique:hover {
+  background: #7a55e5;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+  .contact-section-unique {
+    padding: 60px 15px;
+  }
+
+  .contact-title-unique {
+    font-size: 2.4rem;
+  }
+
+  .contact-subtitle-unique {
+    font-size: 1.2rem;
+  }
+
+  .contact-popup-content-unique {
+    padding: 30px 20px;
+  }
+}
