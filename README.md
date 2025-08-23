@@ -1,5 +1,5 @@
 <h1 align="center">
-  💻<br>Portfolio // Mohammad Tabish Farhan
+  💻<br> Mohammad Tabish Farhan
 </h1>
 
 ![Final project preview](assets/image/preview.png)
